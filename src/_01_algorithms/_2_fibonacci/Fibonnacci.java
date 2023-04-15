@@ -2,11 +2,15 @@ package _01_algorithms._2_fibonacci;
 
 public class Fibonnacci {
 public static void main(String[] args) {
-	for(int i=0;i>11;i++) {
-		int sum=i+(i+1);
-		syso
-		for(in)
-	}
+	int last=0;
+	int secondLast=1;
+
+	for(int i=0;i<13;i++) {
+		int sum=last+secondLast;
+		secondLast=last;
+		last=sum;
+		System.out.println(sum);
 		
+}
 }
 }
